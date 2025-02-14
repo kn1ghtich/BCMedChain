@@ -14,7 +14,7 @@ const Healthcare = () => {
 
 
     const [providerAddress, setProviderAddress] = useState("");
-    const contractAddress = "0x2008d037134c2635db3f15d760aca0e1f4e7a100";
+    const contractAddress = "0x6246903c78f6e13b6b0ae646deea085b92858265";
 
     const contractABI = [
         {
@@ -227,7 +227,6 @@ const Healthcare = () => {
             <h2>Patient Records</h2>
             {patientRecords.map((record, index) => (
                 <div key = {index}>
-                    <p>Record ID: {record.recordID.toNumber()}</p>
                     <p>Diagnosis: {record.diagnosis}</p>
                     <p>Treatment: {record.treatment}</p>
                     <p>Timestamp: {new Date(record.timestamp.toNumber() * 1000).toLocaleString()}</p>
