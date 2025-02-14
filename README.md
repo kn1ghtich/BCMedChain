@@ -19,7 +19,7 @@ The **HealthcareRecords** project is a decentralized healthcare application deve
 ## How It Works
 1. **Contract Owner Actions**:
     - Deploy the contract.
-    - Authorize healthcare providers to manage patient records.
+    - Authorize healthcare providers to create patient records.
 
 2. **Authorized Providers**:
     - Add new patient records.
@@ -76,7 +76,7 @@ Replace `<network-name>` with your desired network such as `localhost`, `rinkeby
 ```
 ## Usage
 ### 1. Deploy Contract
-- Deploy the contract using the Hardhat deployment script (`scripts/deploy.js`).
+- Deploy the contract using the Hardhat deployment script (`scr/Healthcare.js`).
 - Note down the deployed contract address.
 
 ### 2. Interact with the Contract
